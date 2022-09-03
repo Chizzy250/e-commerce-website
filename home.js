@@ -1,11 +1,11 @@
 //Carousel or Image Slider
 (function () {
   const pics = [
-    "I/slider-0.jpg",
-    "I/slider-1.jpg",
-    "I/slider-2.jpg",
-    "I/slider-3.jpg",
-    "I/slider-4.jpg",
+    "slider-0.jpg",
+    "slider-1.jpg",
+    "slider-2.jpg",
+    "slider-3.jpg",
+    "slider-4.jpg",
     ];
     
 const left = document.querySelector('#btn-left')
@@ -20,7 +20,7 @@ const slider = document.querySelector('#slider')
     }else {
       count = 0
     }
-    slider.style.backgroundImage = `url('./img/${pics[count]}')`
+    slider.style.backgroundImage = `url('./I/${pics[count]}')`
   })
     
     right.addEventListener("click", function () {
@@ -29,7 +29,7 @@ const slider = document.querySelector('#slider')
       }else {
         count += 1
       }
-slider.style.backgroundImage = `url('./img/${pics[count]}')`
+slider.style.backgroundImage = `url('./I/${pics[count]}')`
     })
 })()
 
