@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <form id="form" class="container">
+<h3 id="welcome">Provided the needed details so as to be taken to the market place</h3>
+        <div class="register">
+  <div id="feedback-name"></div>
+            <label for="username">Username: </label>
+            <input type="text" id="login-input" placeholder="Enter username">
+            <p id="user"></p>
+        </div>
+        
+ <div class="register">
+            <label for="password">Password: </label>
+            <input type="password" id="login-pass" placeholder="Enter password">
+  <p id="pass"></p>
+        </div>
+  
+        <div class="register">
+            <button id="btn" onclick="check()">Submit form</button>
+        </div>
+        
+<div class="register">
+            <button id="btn2"><a href="register.html">Register</button></a>
+        </div>
+</form>
+<script src="login.js"></script>
+</body>
+
+</html>
