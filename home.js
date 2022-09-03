@@ -1,11 +1,11 @@
 //Carousel or Image Slider
 (function () {
   const pics = [
-    "slider-0.jpg",
-    "slider-1.jpg",
-    "slider-2.jpg",
-    "slider-3.jpg",
-    "slider-4.jpg",
+    "I/slider-0.jpg",
+    "I/slider-1.jpg",
+    "I/slider-2.jpg",
+    "I/slider-3.jpg",
+    "I/slider-4.jpg",
     ];
     
 const left = document.querySelector('#btn-left')
